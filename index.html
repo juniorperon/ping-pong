@@ -6,7 +6,8 @@
     <title>Ping-Pong Tetris</title>
 </head>
 <body style="background-color: black;">
-    <canvas style="margin: 0 auto 0 auto; display:block; border:1px solid white ;" id="folha" width="600" height="500"></canvas>
+    <div>
+        <canvas style="margin: 0 auto 0 auto; display:block; border:1px solid white;" id="folha" width="600" height="500"></canvas>
     <h1 style="text-align: center; color: white;">Ping-Pong Tetris</h1>
         <script>
             //carrega os primeiros comandos
@@ -48,7 +49,6 @@
             }
 
             function desenhar() {
-                areaDesenho.strokeStyle = "white";
 
                 areaDesenho.fillStyle = "#286047"; //cor verde
 
@@ -135,5 +135,7 @@
                 velocidadeBolaPosicaoY = 3;
             }
         </script>
+    </div>
+    
 </body>
 </html>
